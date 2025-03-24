@@ -1,0 +1,44 @@
+*{
+    margin: auto;
+}
+
+
+
+body{
+    text-align: center;
+}
+
+.box{
+    display: flex;
+}
+
+#red{
+   height: 200px;
+   width: 200px;
+   background-color: red;
+   border: 5px solid black;
+}
+
+#yellow{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border: 5px solid black;
+
+}
+
+#green{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border: 5px solid black;
+
+}
+
+#blue{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border: 5px solid black;
+
+}
