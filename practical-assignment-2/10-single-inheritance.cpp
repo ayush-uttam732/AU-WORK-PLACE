@@ -1,4 +1,4 @@
-//10. Write a C++ program to implement Single inheritance.
+//26=> Write a C++ program to implement Single inheritance.
 
 #include<iostream>
 using namespace std;

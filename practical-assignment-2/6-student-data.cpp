@@ -1,6 +1,5 @@
-// 6=> Write a C++ program to implement a class called Student that has private member
-//variables for name, class, roll number, and marks. Include member functions to
-//calculate the grade based on the marks and display the student's information.
+// 22=> Write a C++ program to implement a class called Student that has private membervariables for name, class, roll number, and marks. 
+//Include member functions to calculate the grade based on the marks and display the student's information.
 
 #include <iostream>
 using namespace std;
@@ -38,6 +37,12 @@ class student{
             cout << "Grade: " << calculateGrade() << endl;
         }
 };
+
+
+
+
+
+
 int main (){
     student s1;
     string name, className;

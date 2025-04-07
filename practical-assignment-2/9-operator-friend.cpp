@@ -1,6 +1,4 @@
-//9.Write a C++ program to overload operator ++ and operator －－ using friend
-//functions.
-
+//25=> Write a C++ program to overload operator ++ and operator －－ using friend functions.
 #include<iostream>
 using namespace std;
 class operatorOL{
@@ -9,18 +7,15 @@ class operatorOL{
     public:
         operatorOL(int x){
             a = x;
-        }
-                                                                // Overloading the ++ operator using friend function
+        }                                                        // Overloading the ++ operator using friend function
         friend  operatorOL operator++(operatorOL &obj){
             obj.a++;
             return obj;
-        }
-                                                                // Overloading the -- operator using friend function
+        }                                                        // Overloading the -- operator using friend function
         friend operatorOL operator--(operatorOL &obj){
             obj.a--;
             return obj;
-        }
-                                                                // Function to display the value of a
+        }                                                        // Function to display the value of a
         void display(){
             cout << "Value of a: " << a << endl;
         }

@@ -1,5 +1,4 @@
-//7=> Write a C++ program to implement function overloading with type, order, and
-//sequence of arguments.
+//23=> Write a C++ program to implement function overloading with type, order, and sequence of arguments.
 
 #include<iostream>
 using namespace std;

@@ -1,4 +1,4 @@
-//11.Write a C++ program to implement multiple inheritance
+//27=> Write a C++ program to implement multiple inheritance
 
 #include<iostream>
 using namespace std;

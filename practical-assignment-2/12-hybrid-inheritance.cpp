@@ -1,4 +1,4 @@
-//12.Write a C++ program to implement Hybrid inheritance.
+//28=>Write a C++ program to implement Hybrid inheritance.
 
 #include<iostream>
 using namespace std;

@@ -1,6 +1,5 @@
-//5=> Write a C++ program to implement a class called Employee that has private
-//member variables for name, employee ID, and salary. Include member functions to
-//calculate and set salary based on employee performance
+//21  => Write a C++ program to implement a class called Employee that has privatemember variables for name, employee ID, and salary. Include member 
+//functions to calculate and set salary based on employee performance
 
 #include<iostream>
 using namespace std;
@@ -40,4 +39,4 @@ int main(){
     e.calculate_salary();
     e.display_data();
     return 0;
-}
+}      
