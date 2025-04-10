@@ -12,21 +12,17 @@ class funOver{
             cout << "Function with float and int arguments called." << endl;
             cout << "Float: " << a << ", Integer: " << b << endl;
         }
-        void fun(int a, int b){
+        void fun(int a, int b ,int c){
             cout << "Function with two integer arguments called." << endl;
-            cout << "Integer 1: " << a << ", Integer 2: " << b << endl;
+            cout << "Integer 1 , 2 and 3 is : " << a << b <<c << endl;
         }
-        void fun(float a, float b){
-            cout << "Function with two float arguments called." << endl;
-            cout << "Float 1: " << a << ", Float 2: " << b << endl;
-        }
+       
 };
 int main(){
     funOver obj;
     obj.fun(5, 3.14f); // Calls the function with int and float arguments
     obj.fun(3.14f, 5); // Calls the function with float and int arguments
-    obj.fun(5, 10); // Calls the function with two integer arguments
-    obj.fun(3.14f, 2.71f); // Calls the function with two float arguments
+    obj.fun(5, 10,30); // Calls the function with two integer arguments
 
     return 0;
 }
