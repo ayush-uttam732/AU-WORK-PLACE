@@ -1,3 +1,6 @@
+//18. Write a C++ program containing a possible exception.use a try block to throw
+// it and a catch block to handle it properly.
+
 #include <iostream>
 using namespace std;
 
