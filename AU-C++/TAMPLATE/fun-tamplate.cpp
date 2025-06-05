@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
 template <class T> T add (T a,T b){
-    T result= a+b;
-    return result;
+    // T result= a+b;
+    return a+b;
     // return 0;
 }
 int main(){
